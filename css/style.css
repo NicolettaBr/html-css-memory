@@ -25,3 +25,29 @@ body{
     }
 
 /*FINE HEADER*/
+
+/* MAIN*/
+
+.sfondo{
+    background-color: lightblue;
+    width: 1024px;
+    height: 500px;
+    margin: auto;
+}
+
+.riga{
+    
+    height: 150px;
+    width: 65%;
+    margin: auto;
+    text-align: center;
+
+}
+
+.card{
+    width: 20%;
+    height: 200px;
+    background-color: white;
+    display: inline-block;
+    
+}
