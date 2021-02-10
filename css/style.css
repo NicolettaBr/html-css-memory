@@ -15,12 +15,13 @@ body{
 
 .conteiner{
     background-color: lightblue;
-    width:1024px;
+    width: 1024px;
+    margin: auto;
     text-align: center;
-    padding: 10px;
-    }
+   }
 
 #title{
     color: white;
     }
+
 /*FINE HEADER*/
