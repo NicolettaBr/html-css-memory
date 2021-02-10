@@ -48,21 +48,31 @@ body{
     width: 20%;
     height: 150px;
     background-color: white;
+    background-image:url('../img/pattern.png');
     display: inline-block;
     border-style: groove;
     border-radius: 10px;
     border: 1px solid gray;
-    margin: 5px;
-    
-    
-}
-/*
-.pattern{
-    background-image: url(../img/pattern.png);
+    margin: 5px;    
     background-size: contain;
+  
 }
-*/
-img{
-    width: 100%;
+
+.card img {
+    width:100%;
+    display: none;
+}
+
+.card:hover {
+    background-image:none;
+}
+
+.card:hover img {
     display: block;
 }
+
+img{
+     width: 100%;
+     display: block;
+}
+
