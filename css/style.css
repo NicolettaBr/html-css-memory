@@ -32,8 +32,8 @@ body{
 .sfondo{
     background-color: lightblue;
     width: 1024px;
-    height: 500px;
     margin: auto;
+    padding: 30px;
 }
 
 .riga{
@@ -55,10 +55,13 @@ body{
     border: 1px solid gray;
     margin: 5px;    
     background-size: contain;
+    padding: 10px;
+    position: relative;
   
 }
 
-.card img {
+.card img,
+.card .nome {
     width:100%;
     display: none;
 }
@@ -67,12 +70,38 @@ body{
     background-image:none;
 }
 
-.card:hover img {
+.card:hover img,
+.card:hover .nome {
     display: block;
 }
 
 img{
      width: 100%;
      display: block;
+    
 }
 
+.nome{
+    font-size: 25px;
+    display: block;
+    width: 100%;
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    text-align: center;
+   
+}
+
+/* FINE MAIN */
+
+/* FOOTER */
+
+.footer{
+    background-color: lightblue;
+    width: 1024px;
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+}
+
+/* FINE FOOTER*/
